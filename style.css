@@ -1,10 +1,15 @@
+/* Global section */
 *{
     margin: 0;
     padding: 0;
 }
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+/* Nav Section */
 header{
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -25,5 +30,38 @@ header{
 }
 .menu-list:hover{
     cursor: pointer;
-    color: crimson;
+    color: red;
+}
+
+/* Banner Sec */
+
+.banner-sec{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-image: url('./bg img/background.png'),linear-gradient(45deg, black, rgb(24, 23, 23)) ;
+    color: white;
+}
+.banner-img{
+    width:300px;
+}
+.banner-text{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.banner-para{
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: red;
+    padding: 10px 30px;
+    border:0;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
 }
