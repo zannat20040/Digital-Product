@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-img{
+    width: 150px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-list{
+    list-style: none;
+    margin-left: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-list:hover{
+    cursor: pointer;
+    color: crimson;
+}
