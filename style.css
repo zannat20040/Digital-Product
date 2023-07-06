@@ -57,11 +57,36 @@ header{
 
 .btn{
     background-color: red;
-    padding: 10px 30px;
+    padding: 12px 20px;
     border:0;
     color: white;
+    transition: .5s;
+    border-radius: 5px;
 }
 .btn:hover{
     background-color: white;
     color: black;
+}
+
+/* banner sec */
+
+.aboutus{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.abouttext{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.about-right-text{
+    margin-bottom: 20px;
+}
+
+.aboutbtn{
+    border: 1px solid red;
 }
